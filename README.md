@@ -1,2 +1,3 @@
-# mito
-mito
+# computational and analysis script
+
+> 🚧 Coming Soon
