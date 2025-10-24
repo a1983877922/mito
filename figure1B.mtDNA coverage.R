@@ -11,9 +11,7 @@ library(tidyverse)
 library(ggpubr)
 library(patchwork)
 library(paletteer)
-# library(ggsignif)
-# library(ggpubr)
-# library(rstatix)
+
 ###########
 dfID1020 <- read_excel("D:/biosoft/1000thal/千人/ID对应(1020+409)2023.12.22.xlsx", sheet = "1020")
 dfID409 <- read_excel("D:/biosoft/1000thal/千人/ID对应(1020+409)2023.12.22.xlsx", sheet = "409")
@@ -412,3 +410,4 @@ vio_plot2<- ggplot(combined_data, aes(x = group, y = MT_mean_coverage,fill = gro
 
 vio_plot2
 # ggsave(filename = "figure4B.mtDNA coverage比对2.pdf",device = "pdf",plot = vio_plot2,path = "D:/biosoft/1000thal/mtDNA/figure", width = 10 ,height = 8, dpi = 600)
+
